@@ -38,3 +38,17 @@ it('should redirect to the admin page', function(){
    });
 \end{lstlisting}
 ```
+
+## To insert a basic title
+```LaTeX
+\input{headers}
+
+\title{Title of the document}
+\author{ FirstName LastName \\}
+\date{\today}
+
+\begin{document}
+\maketitle
+% Your content comes here
+\end{document}
+```
